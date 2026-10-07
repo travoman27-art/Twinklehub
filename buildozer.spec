@@ -9,11 +9,12 @@ requirements = python3,kivy,jnius
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET,ACCESS_NETWORK_STATE,BIND_VPN_SERVICE,FOREGROUND_SERVICE
-android.api = 31
+android.api = 33
 android.minapi = 21
 android.ndk = 25b
-android.sdk = 31
+android.sdk = 33
 android.accept_sdk_license = True
+android.archs = arm64-v8a
 purl = 
 
 [buildozer]
