@@ -11,8 +11,9 @@ fullscreen = 0
 android.permissions = INTERNET,ACCESS_NETWORK_STATE,BIND_VPN_SERVICE,FOREGROUND_SERVICE
 android.archs = arm64-v8a
 android.allow_backup = True
-android.api = 31
+android.api = 33
 android.minapi = 21
+android.sdk = 33
 android.accept_sdk_license = True
 
 [buildozer]
