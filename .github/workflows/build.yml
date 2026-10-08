@@ -25,10 +25,10 @@ jobs:
             zlib1g-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev \
             libssl-dev libffi-dev libbz2-dev
 
-    - name: Install Buildozer and Cython
+    - name: Install Buildozer and fixed Cython
       run: |
         pip install --upgrade pip
-        pip install cython==0.29.36 buildozer
+        pip install "cython<3.0" buildozer
 
     - name: Build with Buildozer
       run: buildozer -v android debug
