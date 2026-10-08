@@ -46,9 +46,8 @@ android.minapi = 21
 android.sdk = 33
 
 [buildozer]
-
-# (int) Log level (0 = error only, 1 = info, 2 = debug command)
 log_level = 2
-
-# (int) Display warning if buildozer is run as root (0 = False, 1 = True)
 warn_on_root = 1
+
+# Отключаем строгую изоляцию pip внутри сборщика p4a
+p4a.branch = master
